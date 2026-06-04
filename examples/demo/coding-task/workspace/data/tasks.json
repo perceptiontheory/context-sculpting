@@ -1,0 +1,20 @@
+{
+  "nextId": 4,
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Book venue",
+      "status": "done"
+    },
+    {
+      "id": "2",
+      "title": "Draft agenda",
+      "status": "pending"
+    },
+    {
+      "id": "3",
+      "title": "Send invites",
+      "status": "pending"
+    }
+  ]
+}

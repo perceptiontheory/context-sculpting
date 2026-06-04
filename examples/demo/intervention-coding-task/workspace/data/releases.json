@@ -1,0 +1,23 @@
+{
+  "nextId": 4,
+  "releases": [
+    {
+      "id": "1",
+      "name": "Q2 Planning",
+      "status": "shipped",
+      "owner": "Avery"
+    },
+    {
+      "id": "2",
+      "name": "Roadmap Draft",
+      "status": "draft",
+      "owner": "Riley"
+    },
+    {
+      "id": "3",
+      "name": "Beta Outreach",
+      "status": "draft",
+      "owner": "Casey"
+    }
+  ]
+}

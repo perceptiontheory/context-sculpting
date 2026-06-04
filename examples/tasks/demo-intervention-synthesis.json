@@ -1,0 +1,10 @@
+{
+  "id": "demo-intervention-synthesis-noisy-corpus",
+  "cwd": "../demo/intervention-synthesis-task/workspace",
+  "resetWorkspaceFrom": "../demo/intervention-synthesis-task/workspace-template",
+  "goalFile": "../demo/intervention-synthesis-task/goal.md",
+  "contextFile": "../demo/intervention-synthesis-task/context.md",
+  "verification": {
+    "command": ["node", "verify.mjs"]
+  }
+}

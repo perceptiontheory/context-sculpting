@@ -1,0 +1,5 @@
+{
+  "id": "list-project-files",
+  "goal": "List the files in the current working directory and briefly summarize what is already in this project."
+}
+

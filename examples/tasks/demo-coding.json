@@ -1,0 +1,10 @@
+{
+  "id": "demo-coding-task-manager",
+  "cwd": "../demo/coding-task/workspace",
+  "resetWorkspaceFrom": "../demo/coding-task/workspace-template",
+  "goalFile": "../demo/coding-task/goal.md",
+  "contextFile": "../demo/coding-task/context.md",
+  "verification": {
+    "command": ["node", "verify.mjs"]
+  }
+}

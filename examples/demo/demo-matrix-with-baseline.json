@@ -1,0 +1,56 @@
+{
+  "id": "context-sculpting-demo-with-baseline",
+  "description": "Core demo matrix plus one GPT-5.4 ceiling run per task.",
+  "runs": [
+    {
+      "id": "coding-inner-01",
+      "task": "../tasks/demo-coding.json",
+      "config": "../configs/openai-gpt54mini-inner.json"
+    },
+    {
+      "id": "coding-inner-02",
+      "task": "../tasks/demo-coding.json",
+      "config": "../configs/openai-gpt54mini-inner.json"
+    },
+    {
+      "id": "coding-harness-01",
+      "task": "../tasks/demo-coding.json",
+      "config": "../configs/openai-gpt54-outer-harness.json"
+    },
+    {
+      "id": "coding-harness-02",
+      "task": "../tasks/demo-coding.json",
+      "config": "../configs/openai-gpt54-outer-harness.json"
+    },
+    {
+      "id": "coding-baseline-01",
+      "task": "../tasks/demo-coding.json",
+      "config": "../configs/openai-gpt54-baseline.json"
+    },
+    {
+      "id": "synthesis-inner-01",
+      "task": "../tasks/demo-synthesis.json",
+      "config": "../configs/openai-gpt54mini-inner.json"
+    },
+    {
+      "id": "synthesis-inner-02",
+      "task": "../tasks/demo-synthesis.json",
+      "config": "../configs/openai-gpt54mini-inner.json"
+    },
+    {
+      "id": "synthesis-harness-01",
+      "task": "../tasks/demo-synthesis.json",
+      "config": "../configs/openai-gpt54-outer-harness.json"
+    },
+    {
+      "id": "synthesis-harness-02",
+      "task": "../tasks/demo-synthesis.json",
+      "config": "../configs/openai-gpt54-outer-harness.json"
+    },
+    {
+      "id": "synthesis-baseline-01",
+      "task": "../tasks/demo-synthesis.json",
+      "config": "../configs/openai-gpt54-baseline.json"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "condition": "inner_only",
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-5",
+  "thinkingLevel": "off",
+  "sessionMode": "in_memory"
+}

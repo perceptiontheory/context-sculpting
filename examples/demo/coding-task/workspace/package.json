@@ -1,0 +1,8 @@
+{
+  "name": "context-sculpting-demo-coding-task",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

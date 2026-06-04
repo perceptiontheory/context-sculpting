@@ -1,0 +1,46 @@
+{
+  "id": "context-sculpting-demo-core",
+  "description": "Eight-run core matrix for the context sculpting demo.",
+  "runs": [
+    {
+      "id": "coding-inner-01",
+      "task": "../tasks/demo-coding.json",
+      "config": "../configs/openai-gpt54mini-inner.json"
+    },
+    {
+      "id": "coding-inner-02",
+      "task": "../tasks/demo-coding.json",
+      "config": "../configs/openai-gpt54mini-inner.json"
+    },
+    {
+      "id": "coding-harness-01",
+      "task": "../tasks/demo-coding.json",
+      "config": "../configs/openai-gpt54-outer-harness.json"
+    },
+    {
+      "id": "coding-harness-02",
+      "task": "../tasks/demo-coding.json",
+      "config": "../configs/openai-gpt54-outer-harness.json"
+    },
+    {
+      "id": "synthesis-inner-01",
+      "task": "../tasks/demo-synthesis.json",
+      "config": "../configs/openai-gpt54mini-inner.json"
+    },
+    {
+      "id": "synthesis-inner-02",
+      "task": "../tasks/demo-synthesis.json",
+      "config": "../configs/openai-gpt54mini-inner.json"
+    },
+    {
+      "id": "synthesis-harness-01",
+      "task": "../tasks/demo-synthesis.json",
+      "config": "../configs/openai-gpt54-outer-harness.json"
+    },
+    {
+      "id": "synthesis-harness-02",
+      "task": "../tasks/demo-synthesis.json",
+      "config": "../configs/openai-gpt54-outer-harness.json"
+    }
+  ]
+}

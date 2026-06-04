@@ -1,0 +1,29 @@
+{
+  "name": "context-sculpting",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Phase 1 harness scaffolding for context sculpting experiments",
+  "bin": {
+    "context-sculpting": "./dist/cli/runHarness.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "dev": "node --import tsx src/cli/runHarness.ts",
+    "demo": "node --import tsx src/cli/runDemo.ts",
+    "start": "node dist/cli/runHarness.js"
+  },
+  "dependencies": {
+    "@mariozechner/pi-ai": "^0.63.1",
+    "@mariozechner/pi-coding-agent": "^0.63.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20.6.0"
+  }
+}

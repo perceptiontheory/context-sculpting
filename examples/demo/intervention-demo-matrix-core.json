@@ -1,0 +1,30 @@
+{
+  "id": "context-sculpting-demo-intervention-core",
+  "description": "Four-run intervention-targeted demo intended to elicit active context sculpting.",
+  "runs": [
+    {
+      "id": "intervention-coding-inner-01",
+      "task": "../tasks/demo-intervention-coding.json",
+      "config": "../configs/openai-gpt54mini-low-inner.json",
+      "notes": "Control run for the intervention-targeted coding task."
+    },
+    {
+      "id": "intervention-coding-harness-01",
+      "task": "../tasks/demo-intervention-coding.json",
+      "config": "../configs/openai-gpt54-outer-targeted.json",
+      "notes": "Harness run with intervention-targeted outer prompt profile."
+    },
+    {
+      "id": "intervention-synthesis-inner-01",
+      "task": "../tasks/demo-intervention-synthesis.json",
+      "config": "../configs/openai-gpt54mini-low-inner.json",
+      "notes": "Control run for the intervention-targeted synthesis task."
+    },
+    {
+      "id": "intervention-synthesis-harness-01",
+      "task": "../tasks/demo-intervention-synthesis.json",
+      "config": "../configs/openai-gpt54-outer-targeted.json",
+      "notes": "Harness run with intervention-targeted outer prompt profile."
+    }
+  ]
+}

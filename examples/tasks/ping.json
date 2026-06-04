@@ -1,0 +1,4 @@
+{
+  "id": "ping",
+  "goal": "Reply with exactly the single token PONG and nothing else."
+}

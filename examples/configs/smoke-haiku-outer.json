@@ -1,0 +1,12 @@
+{
+  "condition": "outer_harness",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5",
+  "thinkingLevel": "off",
+  "sessionMode": "in_memory",
+  "outerAgent": {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "thinkingLevel": "off"
+  }
+}

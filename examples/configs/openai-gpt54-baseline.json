@@ -1,0 +1,9 @@
+{
+  "condition": "single_agent_baseline",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "thinkingLevel": "high",
+  "sessionMode": "in_memory",
+  "maxInnerTurns": 10,
+  "maxEstimatedCostUsd": 6
+}

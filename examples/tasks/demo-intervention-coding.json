@@ -1,0 +1,10 @@
+{
+  "id": "demo-intervention-coding-release-reporter",
+  "cwd": "../demo/intervention-coding-task/workspace",
+  "resetWorkspaceFrom": "../demo/intervention-coding-task/workspace-template",
+  "goalFile": "../demo/intervention-coding-task/goal.md",
+  "contextFile": "../demo/intervention-coding-task/context.md",
+  "verification": {
+    "command": ["node", "verify.mjs"]
+  }
+}

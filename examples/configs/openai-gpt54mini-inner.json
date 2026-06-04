@@ -1,0 +1,9 @@
+{
+  "condition": "inner_only",
+  "provider": "openai",
+  "model": "gpt-5.4-mini",
+  "thinkingLevel": "medium",
+  "sessionMode": "in_memory",
+  "maxInnerTurns": 10,
+  "maxEstimatedCostUsd": 4
+}

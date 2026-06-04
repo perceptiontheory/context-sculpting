@@ -1,0 +1,10 @@
+{
+  "id": "demo-synthesis-local-corpus",
+  "cwd": "../demo/synthesis-task/workspace",
+  "resetWorkspaceFrom": "../demo/synthesis-task/workspace-template",
+  "goalFile": "../demo/synthesis-task/goal.md",
+  "contextFile": "../demo/synthesis-task/context.md",
+  "verification": {
+    "command": ["node", "verify.mjs"]
+  }
+}
